@@ -102,6 +102,19 @@ background-image: url("./images/birds.png");
 display: flex;
 
 }
+
+/* #message {
+    height: 20%;
+    width: 100%; */
+    /* background-color: rgba(250,250,250,30%); */
+    /* text-align: center; */
+    /* color: rgba(30,30,30,60%);*/
+    /* color:white;
+    overflow: hidden;
+    margin:auto;
+    z-index: 97;
+    background-color:black; */
+/* } */
 .button {
     
     background-color: black;
@@ -116,14 +129,7 @@ display: flex;
   border: 2px solid white;
 }
 
-/* #right-content, #left-content { */
-    /* height: 260px;
-    width: 300px;
-    background-color:white;
-    /* z-index: 99; */
-    /* margin: 5px;
-    padding: 5px;  */
-/* } */
+
 
 /* text stylings */
 
