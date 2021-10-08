@@ -101,7 +101,7 @@ width: 78.2%;
 border:3px solid black;
 border-radius: 10px;
 margin:auto;
-background-image: url("./landing/images/birds.png");
+background-image: url("/landing/images/birds.png");
 display: flex;
 
 }
