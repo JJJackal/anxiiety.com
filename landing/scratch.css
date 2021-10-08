@@ -11,6 +11,7 @@ html {
     display: grid;
     width: 900px;
     margin: auto;
+    text-align:center;
     
     /* grid-template-columns: repeat(10, 1fr); */
     grid-template-columns: repeat(10, 4.7rem);
@@ -105,6 +106,8 @@ display: flex;
 
 }
 
+
+
 /* #message {
     height: 20%;
     width: 100%; */
@@ -143,6 +146,20 @@ display: flex;
     z-index: 101;
   }
 
+#about-me {
+    background-color: white;
+    color:black;
+    Font-Family: 'Cinzel', Cursive;
+    border-radius:5px;
+    width:145px;
+    height: 1.25rem;
+    border: 2px solid black;
+    text-align: center;
+    margin:auto;
+    margin-top:40px;
+    text-transform:bold;
+}
+
 
 /* text stylings */
 
@@ -176,3 +193,32 @@ display: flex;
      /* transition-property: all; */
      transition: .75s;
 } 
+
+/* non-accesibility media queries */
+
+@media screen and (min-width: 360px) {
+    
+}
+
+
+
+
+
+
+/* accessibility media queries */
+
+@media screen and (prefers-reduced-motion: reduce) {  
+    * {
+      /* Very short durations means JavaScript that relies on events still works */
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+/* 
+  @media screen and (prefers-color-scheme: light) {
+    body {
+      --bg-color: black;
+      --text-color:white;
+    }
+  } */
