@@ -49,6 +49,10 @@
   top:0px; 
 }
 
+.lump > img {
+  overflow: hidden;
+}
+
 #about-me {
   background-color: white;
   color:black;
@@ -257,7 +261,7 @@ display: flex;
    .button {
     top: 0%;
     left: 50%;
-    transform: translate(-50%, 450%);
+    transform: translate(-50%, 500%);
     width:60%;
     overflow: visible;
    }
