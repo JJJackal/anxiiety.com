@@ -237,7 +237,6 @@ display: flex;
       margin-top:60px;
       margin-bottom: 80px;
       display: grid;
-      /* grid-template-columns:  */
       grid-template-rows: auto;
       row-gap: 1rem;
       align-items: center;
@@ -261,7 +260,7 @@ display: flex;
    .button {
     top: 0%;
     left: 50%;
-    transform: translate(-50%, 500%);
+    transform: translate(-50%, 460%);
     width:60%;
     overflow: visible;
    }
@@ -277,11 +276,6 @@ display: flex;
    }
 
 }
-
-
-
-
-
 
 /* accessibility media queries */
 
