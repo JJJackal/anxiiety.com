@@ -12,12 +12,82 @@ html {
   filter: invert(100%); */
 }
 
+.cinzel {
+  font-family: 'Cinzel';
+}
+
+.fauna {
+  font-family: 'Fauna One', Serif;
+}
+
+.glegoo {
+  font-family: 'Glegoo', serif;
+}
+
+.poem-p 
+
+.story-p {
+  text-indent: 3rem;
+}
+
 .title, .nav-link {
   Font-Family: 'Fauna One', Serif;
   color:black;
   overflow: hidden;
   font-size: 1.25rem;
   
+}
+
+.story-title {
+  left: 20%;
+  width:60%;
+  overflow: visible;
+  background-color: black;
+  color:white;
+  Font-Family: 'Cinzel', Cursive;
+  border-radius:5px;
+  position:absolute;
+  top: 25%;
+  border: 2px solid white;
+ }
+
+ .story-subheading {
+   position: absolute;
+   bottom: 1%;
+ }
+
+ #story-wrapper {
+  margin-top:110px;
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 1rem;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#poem-wrapper {
+  margin-top:110px;
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 1rem;
+  align-items: left;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font-family: "Glegoo",
+}
+
+ #story-container {
+  width: 85%;
+  text-align: left;
 }
 
 .logo {
@@ -174,7 +244,7 @@ z-index: 201;
 
 
 @media only screen and (max-width: 700px) {
-  .lead {
+  .long {
     display:none;
   }
 
@@ -198,7 +268,9 @@ z-index: 201;
   .hamburger {
     margin-right: 20px;
   }
-
+ #poem-wrapper {
+   margin-left: 15px;
+ }
   .header {
     width:100%;
     padding-right: 10px;
@@ -220,29 +292,22 @@ z-index: 201;
     width: 100%;
   }
 
-  #story-container {
-    width: 352px;
-  }
+  
 
-  #wrapper > .lump {
+  .lump {
     width:300px;
     height:175px;
     background-color:white;
-    border: solid 1px black;
     border:3px solid black;
-    border-radius: 10px;
-  }
-
-  .lump {
     border-radius: 10px;
     text-align: center;
     margin:5px;
-    border:3px solid black;
     overflow:hidden;
     position:relative;
     top:0px; 
-    
   }
+
+  
 
   label {
     
@@ -262,6 +327,36 @@ z-index: 201;
 }
 
 @media only screen and (min-width: 1000px) {
+
+  #story-wrapper > .lump {
+    width:300px;
+    height:175px;
+    background-color:white;
+    border:3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin:5px;
+    overflow:hidden;
+    position:relative;
+    top:0px; 
+  }
+
+ 
+
+ .story-title {
+    
+      left: 20%;
+      width:60%;
+      overflow: visible;
+      background-color: black;
+      color:white;
+      Font-Family: 'Cinzel', Cursive;
+      border-radius:5px;
+      position:absolute;
+      top: 25%;
+      border: 2px solid white;
+     
+  }
 
  
 
@@ -356,7 +451,7 @@ text-align: center;
 
 }
 
-label {
+.label {
   background-color: black;
   color:white;
   Font-Family: 'Cinzel', Cursive;
@@ -371,7 +466,7 @@ label {
   
 }
 
-.fiction-p {
+.banner-p {
   width: 100%;
   height: 220px;
   display: flex;
