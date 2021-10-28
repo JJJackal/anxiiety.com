@@ -300,12 +300,6 @@ footer {
   text-align: center;
 }
 
-.lump:hover, #about-me:hover {
-  background-color: rgba(255, 0, 0, 10%);
-  cursor:pointer;
-  top:-30px;
-  text-decoration: none;
-}
 
 .lump, #about-me {
    
@@ -322,6 +316,16 @@ footer {
   .title, .logo {
     font-size:1.10rem;
   }
+}
+
+@media (hover:hover) {
+  .lump:hover, #about-me:hover {
+    background-color: rgba(255, 0, 0, 10%);
+    cursor:pointer;
+    top:-30px;
+    text-decoration: none;
+  }
+  
 }
 
 @media only screen and (max-width: 400px) {
