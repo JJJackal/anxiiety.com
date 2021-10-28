@@ -44,6 +44,20 @@ left: 60%;
 transform: translate(-50%, -25%);
 }
 
+.lump-text {
+  border-radius: 3px;
+  background-color:inherit;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-indent: none;
+  text-align: center;
+  width: auto;
+  text-transform:bold;
+  background-color:rgba(255, 255, 255, 10%)
+}
+
 #books {
 position:absolute;
   top: -5%;
@@ -163,7 +177,6 @@ header {
   background-color: white;
   padding-bottom: 10px;
   overflow: hidden;
-  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   padding-top: 15px;
   text-align: center;
   box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
@@ -272,6 +285,33 @@ footer {
   position: fixed;
   font-size: .66rem;
 }
+
+.banner-p {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-indent: none;
+  background-color: rgba(255, 255, 255, 92%);
+  text-transform: bold;
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.lump:hover, #about-me:hover {
+  background-color: rgba(255, 0, 0, 10%);
+  cursor:pointer;
+  top:-30px;
+  text-decoration: none;
+}
+
+.lump, #about-me {
+   
+   transition: .75s;
+} 
+
 
 
 @media only screen and (max-width: 700px) {
@@ -500,22 +540,6 @@ box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
   
 }
 
-.banner-p {
-  width: 100%;
-  height: 220px;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
-  text-indent: none;
-  background-color: rgba(255, 255, 255, 92%);
-  text-transform: bold;
-  font-size: 1.75rem;
-  text-align: center;
-  
-    
-}
-
 
 
 /* links */
@@ -523,18 +547,6 @@ box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
 
 /* all transition effects */
 
-.lump:hover, #about-me:hover {
-    background-color: rgba(255, 0, 0, 10%);
-    cursor:pointer;
-    top:-30px;
-    text-decoration: none;
-}
-
-.lump, #about-me {
-     
-     transition: .75s;
-} 
-}
    
 
   
@@ -558,3 +570,4 @@ box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
       --text-color:white;
     }
   }
+}
