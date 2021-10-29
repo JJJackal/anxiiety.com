@@ -5,45 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="fiction-home.css">
-    <link href="https://fonts.googleapis.com/css?family=Cinzel:700|Fauna+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Fauna+One&family=Glegoo:wght@700&display=swap" rel="stylesheet">
 
 
-    <title>Fiction-Home</title>
+    <title>Fiction</title>
 </head>
 
 
 <body>
     
     <header class="header">
-
-        
-        <nav class="navbar">
-            
+        <nav class="navbar">  
             <span class="logo">
                 Anxiiety.com // 
                 <span class="title">
                     Fiction
                </span>
             </span>
-           
-              
-            
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Home</a>
+                    <a href="index.html" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Blog</a>
+                    <a href="https://wesleyseeblog.wordpress.com/" class="nav-link">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Fiction</a>
+                    <a href="fiction-home.html" class="nav-link">Fiction</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Poems</a>
+                    <a href="poems-home.html" class="nav-link">Poems</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">About</a>
+                    <a href="about.html" class="nav-link">About</a>
                 </li>
             </ul>
             <button class="hamburger">
@@ -52,43 +49,65 @@
                 <span class="bar"></span>
             </button>
         </nav>
-</header>
-    <main>
-        <div id="small-wrapper">
-            <p class="fiction-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, praesentium. Lorem ipsum dolor sit amet.</p>
-            
-            <div class="lump">
+    </header>
 
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, praesentium.</p>
-                <div class='button'>Story 1</div>
+
+    <main>
+        <div id="wrapper">
+           
+
+            <div id="bottom-banner">
+                
+                <div id="bottom-content">
+                    
+                    <p class="banner-p">Some things I've been working on recently. Shorter stories intended to take ten minutes or less to read. </p>
+                        </div>
+                        
+                        
+                </div>
+            
+            <div class="lump story" id="left-container">
+
+                <p class="lump-text">Just a normal day at<br> the cotton candy stand. <br>Nothing weird here.</p>
+                <a href="fiction-one.html">
+                    <span class="fill-link"></span> 
+                    </a>
+                <label class="label">Story 1</label>
             </div>
             
-            <div class="lump">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, praesentium.</p>
-                <div class="button">Story 2</div>
+            <div class="lump" id="center-container">
+                <p class="lump-text">A farming family <br>has an unexpected visitor.</p>
+                <a href="fiction-two.html">
+                    <span class="fill-link"></span> 
+                    </a>
+                
+                <label class="label">Story 2</label>
                 </div>
                 
-            <div class="lump">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, praesentium.</p>
-                <div class="button">Story 3</div>
+            <div class="lump"  id="right-container">
+                <p class="lump-text">A happy couple <br> unintentionally joins a<br> book-of-the-month club.</p>
+                <a href="fiction-three.html">
+                    <span class="fill-link"></span> 
+                    </a>
+    
+                <label class="label">Story 3</label>
             </div>
             
-        </div>
+            
+                
+            
+        
+            </div> 
 
 
-
-
+       
 
     </main>
 
-    
 
-
-
-
-
-
-
+    <footer class="fauna">
+        <div>Designed, built, and maintained by me</div>
+    </footer>
 
     <script type="text/javascript" src="fiction.js"></script>
 </body>
