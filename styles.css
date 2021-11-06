@@ -27,7 +27,12 @@ html {
 .poem-p 
 
 .story-p {
-  text-indent: 3rem;
+  text-indent: -300px;
+  text-align: unset;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: auto;
+  display: block;
 }
 
 #author {
