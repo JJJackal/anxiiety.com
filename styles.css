@@ -24,15 +24,23 @@ html {
   font-family: 'Glegoo', serif;
 }
 
-.poem-p 
+.poem-p {
+  padding: 0;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 70px;
+}
+
+
 
 .story-p {
-  text-indent: -300px;
-  text-align: unset;
-  white-space: nowrap;
+  text-indent: 40px;
+  /* text-align: unset; */
   overflow: hidden;
   margin: auto;
   display: block;
+  row-gap: 1rem;
+  margin-bottom: 20px;
 }
 
 #author {
@@ -48,12 +56,27 @@ html {
   font-size: 1.25rem;
 }
 
-#skull, #plant {
+#skull, #plant, #plant-l, #plant-m, #plant-r {
   position:absolute;
   top: 30%;
 left: 60%;
 transform: translate(-50%, -25%);
 }
+
+#plant-l {
+  top: 20%;
+  left: 100%;
+}
+
+#plant-m {
+  top: 40%;
+  left: 80;
+}
+#plant-r {
+ top: 60%;
+ left: 20%;
+}
+
 
 .lump-text {
   border-radius: 3px;
@@ -94,18 +117,25 @@ position:absolute;
    bottom: 1%;
  }
 
+ .poem-heading {
+   margin: 0;
+   padding:0;
+   text-decoration: underline;
+ }
+
  #story-wrapper {
   margin-top:110px;
   margin-bottom: 80px;
   display: grid;
   grid-template-rows: auto;
-  row-gap: 1rem;
   align-items: center;
   justify-items: center;
   justify-content: space-evenly;
   align-content: space-evenly;
   box-sizing: border-box;
   width: 100%;
+  max-width: 1500px;
+  row-gap: 1rem;
 }
 
 #poem-wrapper {
@@ -113,14 +143,14 @@ position:absolute;
   margin-bottom: 80px;
   display: grid;
   grid-template-rows: auto;
-  row-gap: 1rem;
   align-items: left;
   justify-content: space-evenly;
-  align-content: space-evenly;
+  /* align-content: space-evenly; */
   box-sizing: border-box;
-  width: 100%;
+  /* width: 600px; */
   text-align: left;
-  font-family: "Glegoo",
+  font-family: "Glegoo";
+  
 }
 
  #story-container {
@@ -317,8 +347,6 @@ footer {
    transition: .75s;
 } 
 
-
-
 @media only screen and (max-width: 700px) {
   .long {
     display:none;
@@ -412,9 +440,10 @@ footer {
     position:absolute;
     top: 65%;
     border: 2px solid white;
+    white-space:normal;
    }
 
-   
+
 }
 
 @media only screen and (min-width: 1000px) {
@@ -432,6 +461,8 @@ footer {
     position:relative;
     top:0px; 
   }
+
+  
 
   
  
@@ -557,11 +588,11 @@ box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
   transform: translate(-50%, 370%);
   width:85%;
   border: 2px solid white;
-
-  
 }
 
-
+.long-label {
+  top: 10%;
+}
 
 /* links */
 
